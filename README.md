@@ -9,6 +9,9 @@ Dismissing a sheet and navigating to a modal screen in the same handler leaves
 the native stack unable to present modals. React Navigation's state keeps
 advancing, but nothing is shown until the app restarts.
 
+Issue: [lodev09/react-native-true-sheet#1018](https://github.com/lodev09/react-native-true-sheet/issues/1018).
+Fix: [lodev09/react-native-true-sheet#1019](https://github.com/lodev09/react-native-true-sheet/pull/1019).
+
 <img src="media/stuck.png" width="260" alt="Home screen with three Modal routes in the navigation state and no modal presented" />
 
 ## Versions
